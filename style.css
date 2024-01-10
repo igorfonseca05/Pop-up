@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(img/15356062_SL_050721_42770_03.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.elements {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.elements h1 {
+    color: white;
+}
+
 button{
     user-select: none;
     display: block;
@@ -12,7 +30,8 @@ button{
     color: white;
     border: 0;
     cursor: pointer;
-    padding: 6px 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
 }
 
 .popup-wrapper{
@@ -24,6 +43,7 @@ button{
     width: 100%;
     height: 100%;
     display: none;
+    border-radius: 5px;
 }
 
 .popup{
@@ -31,12 +51,13 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     margin: 10% auto;
     padding: 20px;
     background: white;
     position: relative;
     line-height: 35px;
+    border-radius: 5px;
     
     
 
@@ -50,6 +71,7 @@ button{
     padding: 6px 10px;
     text-decoration: none;
     background-color: crimson;
+    border-radius: 5px;
     
 }
 

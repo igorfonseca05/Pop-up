@@ -17,3 +17,15 @@ popUpWrapper.addEventListener('click', (event) => {
         popUpWrapper.style.display = 'none'
     }
 })
+
+const getDataPopUp = () => {
+    const deadlineContainer = document.querySelector('.deadlineContainer')
+    const data = new Date()
+
+    const deadLine = data.toLocaleDateString('pt-br', {dateStyle: "short"})
+
+    deadlineContainer.innerText = `Aproveite hoje nosso desconto especial de 20% em todos os produtos!
+    🛒 Use o código: FLASH20 | Válido até ${deadLine}`
+}
+
+getDataPopUp()
